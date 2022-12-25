@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\grpcFileTransportClient\\grpcFileTransportClient\\grpcFileTransportClient.csproj": {}
+    "C:\\Users\\redli\\OneDrive\\Belgeler\\GitHub\\grpcClientGithub\\grpcFileTransportClient\\grpcFileTransportClient.csproj": {}
   },
   "projects": {
-    "D:\\grpcFileTransportClient\\grpcFileTransportClient\\grpcFileTransportClient.csproj": {
+    "C:\\Users\\redli\\OneDrive\\Belgeler\\GitHub\\grpcClientGithub\\grpcFileTransportClient\\grpcFileTransportClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\grpcFileTransportClient\\grpcFileTransportClient\\grpcFileTransportClient.csproj",
+        "projectUniqueName": "C:\\Users\\redli\\OneDrive\\Belgeler\\GitHub\\grpcClientGithub\\grpcFileTransportClient\\grpcFileTransportClient.csproj",
         "projectName": "grpcFileTransportClient",
-        "projectPath": "D:\\grpcFileTransportClient\\grpcFileTransportClient\\grpcFileTransportClient.csproj",
+        "projectPath": "C:\\Users\\redli\\OneDrive\\Belgeler\\GitHub\\grpcClientGithub\\grpcFileTransportClient\\grpcFileTransportClient.csproj",
         "packagesPath": "C:\\Users\\redli\\.nuget\\packages\\",
-        "outputPath": "D:\\grpcFileTransportClient\\grpcFileTransportClient\\obj\\",
+        "outputPath": "C:\\Users\\redli\\OneDrive\\Belgeler\\GitHub\\grpcClientGithub\\grpcFileTransportClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\redli\\AppData\\Roaming\\NuGet\\NuGet.Config",

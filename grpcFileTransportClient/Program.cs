@@ -2,7 +2,7 @@
 
 using Grpc.Net.Client;
 using System;
-using System.IO;
+
 using System.Threading;
 using System.Threading.Tasks;
 using static grpcFileClient.FileService;
@@ -16,15 +16,15 @@ namespace grpcFileClient
             var channel = GrpcChannel.ForAddress("https://localhost:7095");
             var client = new FileServiceClient(channel);
 
-            string downloadPath = @"D:\grpcFileTransportClient\grpcFileTransportClient\DownloadFiles";
+            string downloadPath = @"C:\Users\redli\OneDrive\Belgeler\GitHub\grpcClientGithub\grpcFileTransportClient\DownloadFiles";
 
             var fileInfo = new grpcFileClient.FileInfo
             {
                 FileExtension = ".pdf",
-                FileNmae = "Otel_Otomasyon_Projesi (1)"
+                FileNmae = "Otel_Otomasyon_Projesi(1)"
             };
 
-            FileStream fileStream = null;
+            System.IO.FileStream fileStream = null;
 
             var request = client.FileDownload(fileInfo);
             CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
